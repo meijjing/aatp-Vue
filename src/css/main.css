@@ -1,0 +1,36 @@
+.section-main .strong2 {
+  background: #4a569d;
+  background: -webkit-linear-gradient(right, #dc2424, #4a569d);
+  background: -moz-linear-gradient(left, #dc2424, #4a569d);
+  background: -o-linear-gradient(left, #dc2424, #4a569d);
+  background: linear-gradient(to left, #dc2424, #4a569d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  -webkit-animation: Strong2 2s ease infinite;
+  -moz-animation: Strong2 2s ease infinite;
+  -o-animation: Strong2 2s ease infinite;
+  animation: Strong2 2s ease infinite;
+}
+
+@-webkit-keyframes Strong2 {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
+@-moz-keyframes Strong2 {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
+@-o-keyframes Strong2 {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
+@keyframes Strong2 {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
